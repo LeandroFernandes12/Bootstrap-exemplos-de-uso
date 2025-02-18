@@ -1,0 +1,71 @@
+body{
+    background:darkgrey;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-top: 5px;
+}
+
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+input{
+    padding: 5px;
+}
+
+
+.formulário{
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 15px;
+}
+
+.custom-input{
+    background: lightgrey;
+    border: solid 1px darkgrey;
+}
+
+.custom-icon{
+    color: white;
+    border: darkgrey;
+}
+
+.btn.btn-warning.custom-button{
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.text-center{
+    text-align: center;
+    margin: 10px;
+}
+
+@media (max-width:768px) {
+
+    .formulário{
+        background: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 15px;
+    }
+    
+}
