@@ -1,0 +1,47 @@
+body{
+    background:darkgrey;
+}
+
+.formulário{
+    background: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 15px;
+}
+
+.custom-input{
+    background: lightgrey;
+    border: solid 1px darkgrey;
+}
+
+.custom-icon{
+    color: white;
+    border: darkgrey;
+}
+
+.btn.btn-primary.custom-button{
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+    border: none;
+}
+
+@media (max-width:768px) {
+
+    .formulário{
+        background: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 15px;
+    }
+    
+}
